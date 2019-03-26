@@ -57,8 +57,8 @@ javaOpts:
   xms: 512m
   other: -XX:+UnlockExperimentalVMOptions -Dsun.zip.disableMemoryMapping=true -XX:+UseParallelGC -XX:MinHeapFreeRatio=5 -XX:MaxHeapFreeRatio=10 -XX:GCTimeRatio=4 -XX:AdaptiveSizePolicyWeight=90
 image:
-  repository: draft
-  tag: dev
+  repository: gcr.io/activiti-cloud-blueprint/ryandawsonuk/activiti-rb-app
+  tag: 0.0.3
   pullPolicy: IfNotPresent
 service:
   name: activiti-rb-app
